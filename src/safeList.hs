@@ -36,4 +36,4 @@ head (Cons x _) = x
 main :: IO()
 main = do
   print $ head (cons "hoge" nil) --これはコンパイルできる
-  print $ head nil --この行をコメントアウトするとコンパイルエラー
+--  print $ head nil --この行をアンコメントするとコンパイルエラー
